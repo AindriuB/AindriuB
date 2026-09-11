@@ -36,6 +36,25 @@ Senior Software Engineer / Technical Lead working on mission-critical government
 Worked within a complex regulatory environment where availability, data protection, auditability and correctness were critical. Provided technical leadership and mentoring across modern microservices and established enterprise platforms, and led investigations into high-impact production issues.
 More recently, worked on architectural approaches for securely integrating AI/LLM capabilities with sensitive enterprise data, including controlled data access, pseudonymisation, identity correlation, auditing and policy enforcement.
  
-### Global financial technology / payments organisation
-Software Engineer working on high-availability financial transaction and payment-processing systems. Developed and maintained enterprise Java services and APIs supporting transaction processing and integrations with external financial systems.
-Worked in an environment where reliability, security, transactional correctness and operational resilience were fundamental requirements, contributing to systems operating at significant transaction volumes and supporting business-critical financial workflows.
+### Global Payments / Financial Technology — Solutions Architect
+
+Solutions Architect within a global payments technology organisation, designing and delivering payment-processing and integration solutions across **European and North American payment ecosystems**.
+
+Worked at the intersection of enterprise architecture, software engineering and financial transaction processing, with extensive hands-on experience designing integrations between internal platforms, payment processors, acquiring infrastructure and **numerous external payment gateways**.
+
+Key areas of responsibility and experience included:
+
+* Designed end-to-end solution architectures for **business-critical payment processing and gateway integrations** across multiple European and North American markets.
+* Extensive practical experience with **ISO 8583**, including financial transaction message structures, transaction types, processing flows, response handling and integration between heterogeneous payment systems.
+* Architected integrations with numerous payment gateways and processors, dealing with significant differences in protocols, capabilities, transaction lifecycles, error handling and operational models.
+* Designed Java-based services and integration components supporting payment transaction processing and external financial-system connectivity.
+* Developed architectural patterns for abstracting provider-specific behaviour behind consistent internal payment and transaction models.
+* Worked across the complete transaction lifecycle, including **authorisation, capture, settlement, reversal, refund and failure/retry scenarios**.
+* Designed systems with strong requirements around **availability, transactional integrity, fault tolerance, security and operational resilience**.
+* Evaluated and selected technical approaches across application, integration and infrastructure layers, balancing long-term architectural objectives against the constraints of established production systems.
+* Produced solution designs and technical specifications and worked closely with development teams to translate architectural decisions into production implementations.
+* Worked with internal stakeholders and external payment providers to define integration contracts, technical requirements and implementation approaches.
+* Investigated complex failures across distributed payment flows, tracing problems through internal applications, gateways, processors and external financial networks.
+* Designed solutions capable of accommodating multiple providers and markets while maintaining consistent business and transaction semantics.
+* Provided technical direction and architectural guidance to engineering teams working on payment-processing platforms and integrations.
+* Developed a detailed understanding of the architectural and operational challenges associated with **high-availability distributed financial systems and international payment processing**.
