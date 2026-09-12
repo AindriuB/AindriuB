@@ -1,46 +1,59 @@
 ## Professional experience
 
-### Public-sector technology
+### Senior Software Engineer · Technical Lead
 
-**Senior Software Engineer · Technical Lead**
+Experience working on large-scale production systems where reliability, security and operational correctness are important.
 
-Experience working on large-scale public-sector digital services involving high-volume financial and transactional processing.
+My work has covered software development, technical leadership, architecture, production engineering and developer tooling.
 
-My recent work has included:
+Some of the problems I've worked on include:
 
-- Designing and developing Java-based services and applications.
-- Working across distributed systems, APIs, databases and integration platforms.
-- Supporting systems through production and investigating complex operational issues.
-- Building tooling to automate recurring production-support activities.
-- Developing reusable engineering frameworks and SDKs.
-- Coaching developers and establishing more consistent approaches to production automation.
-- Investigating failures across distributed components and developing data-recovery solutions.
-- Exploring secure applications of LLMs and MCP to enterprise systems containing sensitive information.
+- Designing and developing Java-based applications and services.
+- Working across distributed systems, APIs, databases and integration points.
+- Investigating complex production issues across multiple system components.
+- Turning recurring operational problems into reusable engineering solutions.
+- Developing internal SDKs and frameworks to accelerate development.
+- Coaching other developers and establishing common engineering approaches.
+- Building tools for investigation, reconciliation, calculation and operational support.
+- Exploring practical applications of AI and LLMs within enterprise systems.
 
-#### Production automation
+### Production automation
 
-I identified that recurring production problems were being resolved through manual processes and individual, ad-hoc scripts.
+A recurring problem in one of my engineering environments was that production issues were being resolved manually or through individual, ad-hoc scripts.
 
-I developed a **common scripting SDK and automation framework** that allowed developers to rapidly build and deploy reusable solutions to these problems.
+I developed a **reusable scripting SDK and automation framework** that provided a common foundation for rapidly developing and deploying solutions to recurring problems.
 
-The framework changed live support from a predominantly manual activity into a more engineering-oriented process:
+Rather than repeatedly solving the same problem manually, developers could:
 
-**Identify recurring problem → codify solution → deploy automation → reuse**
+**Identify → automate → deploy → reuse**
 
-I also coached junior developers in using the SDK and helped address inconsistencies and security problems present in earlier implementations.
+I also coached other developers in using the framework and helped establish a more consistent approach to production automation.
 
-#### Distributed systems
+The result was a shift from predominantly manual operational work towards **rapid development of reusable engineering solutions**.
 
-Worked on a significant production incident involving data loss across a distributed processing pipeline.
+### Distributed systems
 
-Investigation of application behaviour and production logs identified an issue involving **Hazelcast write-behind processing and downstream HBase persistence**, where data could be evicted from the write-behind queue before reaching its destination.
+Worked on complex production issues involving distributed data processing and persistence.
 
-I helped establish the failure mechanism, worked through the underlying platform issue and contributed to recovery tooling used to restore affected data.
+One particularly challenging incident required tracing data through multiple components to determine why records that appeared to have been successfully processed were subsequently lost.
 
-#### Enterprise AI
+The investigation involved analysing application behaviour and production logs, identifying the interaction between asynchronous processing and persistence, and developing recovery tooling to restore affected data.
 
-Developed an MCP-based investigation service exploring how LLMs can safely interact with sensitive enterprise information through controlled API boundaries.
+This type of work has given me a strong interest in understanding **how distributed systems actually behave under failure**, rather than relying solely on their intended architecture.
 
-The work focuses on privacy-preserving access, pseudonymisation, identity correlation, authorisation and auditability.
+### AI / LLM infrastructure
 
-This work subsequently led to the development of **Data Prism**, an open-source exploration of the architecture.
+I've been exploring practical ways of integrating LLMs with existing enterprise systems.
+
+One area of experimentation has been **MCP-based investigation tooling**, allowing an AI system to interact with controlled enterprise APIs rather than directly exposing underlying systems and data.
+
+This work explores areas including:
+
+- Controlled data access
+- Privacy and pseudonymisation
+- Identity correlation
+- Authorisation
+- Auditability
+- AI-assisted investigation
+
+My open-source project **Data Prism** is an independent exploration of these ideas.
