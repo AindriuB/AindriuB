@@ -218,40 +218,6 @@ Experience included:
 
 ---
 
-# Engineering approach
-
-I tend to start with the **problem rather than the technology**.
-
-I like to understand:
-
-**What is happening?**
-
-↓
-
-**Why is it happening?**
-
-↓
-
-**Is the problem recurring?**
-
-↓
-
-**Can it be abstracted?**
-
-↓
-
-**Can it be automated?**
-
-↓
-
-**Can the solution be made reusable?**
-
-Some of my most interesting engineering work has come from recognising that a
-problem being solved repeatedly is actually an opportunity to build a better
-abstraction, framework or system.
-
----
-
 # Technology
 
 ### Languages
