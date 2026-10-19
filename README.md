@@ -6,6 +6,15 @@ I work primarily with Java, Spring Boot, Kafka and distributed data technologies
 
 ## Current work
 
+### Agent Gateway
+An open-source MCP bridge that lets AI assistants work inside Foundry VTT worlds, with support for Pathfinder 2e and D&D 5e.
+
+Pairs a Foundry module with a self-hosted gateway. Agents act as real Foundry users within their existing permissions, with changes subject to GM approval policies. Available through npm, Docker or a Claude Desktop bundle, with optional tool packs for extending its capabilities. Free and MIT-licensed.
+
+**Stack:** TypeScript · Node.js · MCP · Foundry VTT · Docker
+
+→ [github.com/AindriuB/agent-gateway](https://github.com/AindriuB/agent-gateway)
+
 ### Data Prism
 Privacy infrastructure for safely exposing enterprise APIs to MCP-compatible AI agents.
 
