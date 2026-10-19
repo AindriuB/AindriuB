@@ -15,6 +15,15 @@ Built around deterministic pseudonymisation, scoped identity, secure API integra
 
 → [github.com/AindriuB/data-prism](https://github.com/AindriuB/data-prism)
 
+### gscan
+A Rust command-line tool for surveying local Git repositories. See changed files
+and unpushed commits at a glance, with recursive scanning, dirty filtering and
+JSON output for scripts. Read-only by default.
+
+**Stack:** Rust · Git · Linux / macOS / Windows
+
+→ [github.com/AindriuB/gscan](https://github.com/AindriuB/gscan)
+
 ## Areas I work in
 
 - Distributed systems
