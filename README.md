@@ -6,6 +6,15 @@ I work primarily with Java, Spring Boot, Kafka and distributed data technologies
 
 ## Current work
 
+### Wisp
+A portable, lightweight REST/HTTP client in the spirit of Postman, Bruno and Insomnia, built for low memory use and a small footprint. One self-contained binary per platform, with no installer.
+
+Collections are folders of plain TOML files that diff cleanly in git, with comment-preserving edits, environments, git-ignored secrets and `{name}` path parameters. A UI-free core handles variable resolution, auth inheritance and streaming responses, beneath a native GPU-rendered interface. In active development; Apache-2.0 licensed.
+
+**Stack:** Rust · GPUI · Tokio · reqwest · rustls · TOML · macOS / Windows / Linux
+
+→ [github.com/AindriuB/wisp](https://github.com/AindriuB/wisp)
+
 ### Agent Gateway
 An open-source MCP bridge that lets AI assistants work inside Foundry VTT worlds, with support for Pathfinder 2e and D&D 5e.
 
